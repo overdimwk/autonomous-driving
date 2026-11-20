@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<package format="3">
+<name>orda_runtime</name><version>1.0.0</version><description>Official execution monitor</description>
+<maintainer email="orda@example.invalid">ORDA</maintainer><license>MIT</license>
+<buildtool_depend>ament_python</buildtool_depend>
+<exec_depend>rclpy</exec_depend><exec_depend>sensor_msgs</exec_depend>
+<exec_depend>std_msgs</exec_depend><exec_depend>orda_interfaces</exec_depend>
+<exec_depend>launch</exec_depend><exec_depend>launch_ros</exec_depend>
+<exec_depend>ros_tcp_endpoint</exec_depend>
+<export><build_type>ament_python</build_type></export></package>
